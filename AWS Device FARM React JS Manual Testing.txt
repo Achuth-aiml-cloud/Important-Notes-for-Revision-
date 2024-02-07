@@ -1,0 +1,34 @@
+AWS Device Farm is a service offered by Amazon Web Services that allows you to test your web and mobile applications on a wide range of desktop browsers, real mobile devices, and operating systems. Using AWS Device Farm for manual testing of your React.js website can help ensure it works smoothly across different devices and browsers. Here's a basic guide to get you started with manual testing of your React.js website on AWS Device Farm:
+
+1. Setting Up Your AWS Account
+First, if you haven't already, you'll need to set up an AWS account. Go to the AWS Management Console and follow the instructions to create an account.
+
+2. Navigate to AWS Device Farm
+Once logged in to the AWS Management Console:
+
+Open the Services menu by clicking on "Services" at the top of the page.
+Look for "Device Farm" under the "All Services" list, or use the search bar. Click on "Device Farm" to open the service dashboard.
+3. Create a New Project in AWS Device Farm
+In the Device Farm dashboard, click on "Create a new project".
+Give your project a name and optionally a description, then click "Create".
+4. Create a New Test
+After creating your project:
+
+You'll be directed to the project dashboard. Here, select "Remote access sessions".
+Click on "Create a new session".
+AWS Device Farm will prompt you to choose a device. You can select a device based on the operating system, manufacturer, or model name. For testing a React.js website, you might want to test on multiple devices across different operating systems and browsers.
+5. Configure the Test Session
+After selecting a device, configure your session settings. You can specify a name for the session and set the duration. For manual testing, you might not need to upload any application, since you're testing a website.
+Click on "Start session". AWS Device Farm will then initiate the session and connect you to the selected device.
+6. Perform Manual Testing
+Once the session starts, you will have remote access to the device through your web browser.
+Open the web browser on the device and navigate to your React.js website's URL.
+Perform the manual tests as you would on a physical device, checking for responsiveness, functionality, and any visual or interaction issues.
+7. End the Session
+Once you're done testing, you can end the session from the AWS Device Farm dashboard. Data about the session, including any screenshots or videos you've taken, will be available for review.
+8. Analyze Results
+Review the results of your testing session, including any issues you've identified. Use this information to make improvements to your website.
+Additional Tips:
+Repeatability: Repeat the testing process on different devices and browsers to ensure comprehensive coverage.
+Documentation: Keep detailed notes of the tests performed and any issues found, including the device and browser used.
+AWS Device Farm's pricing is based on usage, so check the current rates to estimate the cost of your testing sessions. This guide should help you get started with manual testing of your React.js website on AWS Device Farm, ensuring compatibility and a smooth user experience across a wide range of devices.
